@@ -1,0 +1,19 @@
+Here be the readme for array2xml.php
+
+Disclaimer: This class was written as an example to show a use of method
+overloading. As with all examples that will end up here, this is for fun
+only and experimentation. Try not to use this code in a production envi-
+ronment, as I'm not sure what the results will be.
+
+Simple example of how to use this class.
+
+	1) Include it
+	2) Build your array;
+		$Example = array('moo' => array ('foo','boo','coo'), 'chocolate' => 'yummy' )
+	3) Declare the class with your array;
+		$OutputXML = new pushOutputXML($Example)
+	4) Use the public variable as an object to output as xml
+		print_r($OutputXML->_outputObject->asXML())
+	
+Enjoy.
+Steve King (steve@stevenking.com.au)
