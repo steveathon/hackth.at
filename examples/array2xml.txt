@@ -16,4 +16,4 @@ Simple example of how to use this class.
 		print_r($OutputXML->_outputObject->asXML())
 	
 Enjoy.
-Steve King (steve@stevenking.com.au)
+by Steve King (steve@stevenking.com.au)
